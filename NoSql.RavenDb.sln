@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSql.RavenDb", "NoSql.RavenDb\NoSql.RavenDb.csproj", "{108108FA-F5B4-46EC-AEF2-D86ED1D14529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSql.RavenDb.Test", "NoSql.RavenDb.Test\NoSql.RavenDb.Test.csproj", "{888B3667-E74E-48FF-9E08-276A826623CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7732FBCE-3EED-485A-B913-7114CA5FC944}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		NoSql.RavenDb.vsmdi = NoSql.RavenDb.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = NoSql.RavenDb.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{108108FA-F5B4-46EC-AEF2-D86ED1D14529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108108FA-F5B4-46EC-AEF2-D86ED1D14529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108108FA-F5B4-46EC-AEF2-D86ED1D14529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108108FA-F5B4-46EC-AEF2-D86ED1D14529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888B3667-E74E-48FF-9E08-276A826623CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888B3667-E74E-48FF-9E08-276A826623CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888B3667-E74E-48FF-9E08-276A826623CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888B3667-E74E-48FF-9E08-276A826623CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
